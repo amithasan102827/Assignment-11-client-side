@@ -11,6 +11,7 @@ import AddNewService from './components/AddNewService/AddNewService';
 import Footer from './components/Footer/Footer';
 import MyOrders from './components/MyOrders/MyOrders';
 import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
      <PrivateRoute path="/myOrders">
       <MyOrders></MyOrders>
      </PrivateRoute>
+
+     <Route path="*">
+      <PageNotFound></PageNotFound>
+     </Route>
    
       
       </Switch>

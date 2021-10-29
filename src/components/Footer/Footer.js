@@ -35,7 +35,7 @@
                          A108 Demo Street New York, NY 535022, United States
                             care@mediyot.com
                             +1 234 567 8910
-                            2020 © Mediyot. Design by Vrishank Softtech.</p>
+                            2021 © travel.com Design by Amit Hasan.</p>
                           <p>
                             <i class="fas fa-envelope-open-text contact-icon"></i>
                                 travel@gmail.com

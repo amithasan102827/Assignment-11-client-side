@@ -18,8 +18,11 @@ const Header = () => {
               <li className="nav-item mx-2 ">
                 <Link className="text-decoration-none" to="/home">Home</Link>
               </li>
+              
 
-              <li className="nav-item mx-2 ">
+            {
+              user.email && <>
+                <li className="nav-item mx-2 ">
                 <Link className="text-decoration-none" to="/AddNewService">Add new service</Link>
               </li>
               <li className="nav-item mx-2 ">
@@ -28,6 +31,11 @@ const Header = () => {
               <li className="nav-item mx-2 ">
                 <Link className="text-decoration-none" to="/ManageAllOrders">ManageAllOrders</Link>
               </li>
+              </>
+              
+            }
+
+              
 
               {
                 !user.email && <li className="nav-item mx-2 ">
