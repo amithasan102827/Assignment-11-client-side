@@ -1,0 +1,65 @@
+[
+    {
+        "name":"Vienna, Austria",
+        "image":"https://i.ibb.co/HNrpG77/valeria-capettini-h3-Ya6-Ru-Bvo0-unsplash.jpg",
+        "price":900,
+        "description":"Artistic and exquisite, it's no surprise that Vienna was voted one of the best cities in the world in this year's Readers' Choice Awards. Between visiting the opera and sampling Sachertorte, be sure to pay."
+        
+    },
+    {
+        "name":"New York",
+        "image":"https://i.ibb.co/Sn8BjWs/bryce-barker-v-Qov-Va49c3-Y-unsplash.jpg",
+        "price":1200,
+        "description":"New York's beauty is multi-sensory: It's the historic architecture, from the Flatiron Building to One World Trade Center. It's the feel of grass beneath your feet (and the smell of roasted nuts) in Central Park. "
+        
+    },
+    {
+        "name":"San Francisco, California",
+        "image":"https://i.ibb.co/v1tYxbw/casey-horner-t-Pa-CIQIWm-DU-unsplash.jpg",
+        "price":1000,
+        "description":"The Golden Gate Bridge is just the beginning. San Francisco’s world-class museums and cultural institutions rival any on the planet—remarkable for a city of fewer than a million people. "
+        
+    },
+    {
+        "name":"Porto, Portugal",
+        "image":"https://i.ibb.co/5nvbYqf/catalin-paterau-k-Czcei2y3-MI-unsplash.jpg",
+        "price":1500,
+        "description":"If you’re upset that Lisbon didn’t make the list, it may be time for you to consider Porto: Portugal's second city is having a serious moment. Oenophiles have been in on the secret for years, but creative types have been flocking to Porto lately."
+        
+    },
+    {
+        "name":"Valletta, Malta",
+        "image":"https://i.ibb.co/9cKNjR4/harshil-gudka-Co-NFVB8-QGfo-unsplash.jpg",
+        "price":1400,
+        "description":"Designated a “Capital of Culture” by the European Union, Valletta has a lot to offer—particularly, its Baroque architecture. The Phoenicia Hotel in front of Valletta’s City Gate offers stunning."
+        
+    },
+    {
+        "name":"Amsterdam, Netherlands",
+        "image":"https://i.ibb.co/8MN1ZDb/jeremy-banks-Dn-HUe-DYzp-Uo-unsplash.jpg",
+        "price":1600,
+        "description":"You know Amsterdam's oh-so-famous central canal, rightly dubbed a UNESCO World Heritage Site in 2010. Add to that swathes of green spaces, storied red-brick facades, and museums filled with Van Gogh paintings."
+        
+    },
+    {
+        "name":"Paris, France",
+        "image":"https://i.ibb.co/SmMJ55x/jezael-melgoza-7-H77-FWk-K-x4-unsplash.jpg",
+        "price":1600,
+        "description":"You can't talk about Barcelona without mentioning Antoni Gaudí, the Catalan architect who left his mark all over the city. A walk around town leads you through his undulating stonework and ironwork, which include Park Güell. "
+        
+    },
+    {
+        "name":"Istanbul, Turkey",
+        "image":"https://i.ibb.co/kK1yXTJ/mousab-al-najjar-7-KTg-Ibjx-Ns-unsplash.jpg",
+        "price":2600,
+        "description":"Istanbul continues to draw us in, whether it's through the frenetic opulence of the Grand Bazaar or the old-meets-new aesthetic of Karaköy. But the architecture still shines brightest here. "
+        
+    },
+    {
+        "name":"Beijing, China",
+        "image":"https://i.ibb.co/nmPQDjD/terry-boynton-EQXXdl-V5-L8s-unsplash.jpg",
+        "price":800,
+        "description":"Beijing gives visitors a lot to take in—the streets seem that much wider than elsewhere, the population that much denser, at first glance. Even its UNESCO-listed cultural sites sound daunting: the Forbidden City, the Great Wall. "
+        
+    }
+]

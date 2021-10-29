@@ -1,0 +1,22 @@
+.booking-form{
+    /* background-color: aquamarine;
+    border-radius: 20px; */
+   width: 45%;
+   
+}
+
+.booking-form input{
+    width: 70%;
+    margin: 8px;
+    padding: 5px;
+}
+.booking-form-btn{
+    background-color: hotpink;
+    color: white;
+    border: none;
+}
+.booking-form-btn:hover{
+    color: rgb(240, 241, 245);
+    background-color: darkcyan;
+    
+}

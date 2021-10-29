@@ -1,0 +1,15 @@
+.backgroudColor{
+    background-color: rgb(10, 104, 104);
+    color: white;
+    height: 100%;
+    margin-top: 20px;
+}
+.icon{
+    margin-top:15px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.contact-icon{
+    margin-right: 5px;
+}
