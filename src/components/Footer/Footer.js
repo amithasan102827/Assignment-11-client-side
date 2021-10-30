@@ -8,7 +8,7 @@
             <div className="col-md-4">
                 <div>
                     <h1>travel.com</h1>
-                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ab.</span>
+                    <span> A travel experience easily makes you happier by getting you away from your daily grind.</span>
                 </div>
                 <div>
                     <i class="fab fa-facebook icon"></i>

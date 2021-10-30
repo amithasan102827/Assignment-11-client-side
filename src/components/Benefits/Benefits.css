@@ -1,7 +1,7 @@
 .benefits-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    color: black;
+    color: #0e172c;
    
 }
 .benefits-button{
@@ -12,7 +12,8 @@
     border-radius: 10px;
 }
 .benefits-bg-color{
-    background-color: #D3D3D3;
+    /* background-color: #D3D3D3; */
+    background-color:#d9d4e7;
     
 }
 

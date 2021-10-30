@@ -2,6 +2,7 @@ import React from 'react';
 import { useHistory, useLocation } from 'react-router';
 import initializeAuthentication from '../../Firebase/firebase.initialize';
 import useAuth from '../Hooks/useAuth';
+import './Login.css'
 
 import useFirebase from '../Hooks/useFirebase';
 
@@ -24,7 +25,7 @@ const Login = () => {
     }
     return (
         <div>
-            <button onClick={handleGoogleLogin} type="button" class="btn btn-warning btn-lg">Google Sing In</button>
+            <button onClick={handleGoogleLogin} type="button" class="btn btn-warning btn-lg google-login">Google Sing In</button>
         </div>
     );
 };
