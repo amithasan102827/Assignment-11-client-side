@@ -35,7 +35,7 @@ const ServiceDetails = () => {
   } 
     return (
         <div className="row mb-5 container w-100 mx-auto ">
-            <h4>service details of id: {detailsId}</h4>
+            {/* <h4>service details of id: {detailsId}</h4> */}
             <h2>Book Your Order Here</h2>
             <div className="col col-md-6">
                 <Card className="w-75">

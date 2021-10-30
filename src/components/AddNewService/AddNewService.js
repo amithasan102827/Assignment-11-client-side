@@ -32,7 +32,7 @@ const onSubmit = data =>{
                 <input  {...register("price",)} placeholder="price" /> <br />
                 <input {...register("image",)} placeholder="image-link" /> <br />
 
-                <textarea {...register("description",)} placeholder="address" /> <br />
+                <textarea {...register("description",)} placeholder="description" /> <br />
 
                 <input className="booking-form-btn" type="submit" />
             </form>

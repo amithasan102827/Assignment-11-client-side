@@ -1,0 +1,35 @@
+.image-promotion {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../project-images/pronotion-image/beach-gf572138f0_1920.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 14%;
+  }
+  
+  .text-promotion {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .text-promotion button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(250, 38, 186);
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  
+  .text-promotion button:hover {
+    background-color: rgb(60, 243, 44);
+    color: white;
+  }

@@ -1,0 +1,18 @@
+.benefits-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+   
+}
+.benefits-button{
+    border: none;
+    background-color: rgb(27, 40, 221);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.benefits-bg-color{
+    background-color: #D3D3D3;
+    
+}
+
