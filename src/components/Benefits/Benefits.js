@@ -3,10 +3,10 @@ import "./Benefits.css";
 
 const Benefits = () => {
     return (
-        <div className=" mt-4 benefits-bg-color p-4">
+        <div className=" mt-4 benefits-bg-color p-4 ">
              <span className="text-danger">MULTIPLE BENEFITS INCLUDED</span>
             <h3 className="text-danger">OUR SERVICES</h3>
-        <div className="benefits-container ">
+        <div className="benefits-container service-container">
            
             <div className="p-4 mx-2">
                 <span><i class="fas fa-car-crash fa-3x"></i></span>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import useAuth from '../Hooks/useAuth';
+import './MyOrders.css';
 
 const MyOrders = () => {
     const {user}=useAuth();
@@ -33,10 +34,10 @@ const MyOrders = () => {
 
     return (
         <div>
-            <h3>My Orders</h3>
+            <h3 className="" >My Orders</h3>
            {
-               matchOrders.map(mt=> <Table striped bordered hover className="table table-success table-striped" >
-               <thead>
+               matchOrders.map(mt=> <Table striped bordered hover className="table table-success table-striped " >
+               <thead >
                  <tr>
                    {/* <th>#</th> */}
                    <th>Email</th>
@@ -47,7 +48,7 @@ const MyOrders = () => {
                    <th>Action</th>
                  </tr>
                </thead>
-               <tbody>
+               <tbody >
                  <tr>
                    {/* <td>{mt._id}</td> */}
                    <td>{mt.email}</td>

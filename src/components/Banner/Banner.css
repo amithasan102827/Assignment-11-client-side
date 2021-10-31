@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    /* width: 100%; */
     padding: 16%;
   }
   
@@ -32,3 +33,5 @@
     background-color: #555;
     color: white;
   }
+
+   

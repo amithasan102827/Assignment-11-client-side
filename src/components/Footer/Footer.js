@@ -4,7 +4,7 @@
  const Footer = () => {
      return (
         <div className="backgroudColor mt-4 pt-5 footer ">
-        <div className="row mx-4 ">
+        <div className="row mx-4  ">
             <div className="col-md-4">
                 <div>
                     <h1>travel.com</h1>

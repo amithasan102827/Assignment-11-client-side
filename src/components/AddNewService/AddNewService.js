@@ -24,7 +24,7 @@ const onSubmit = data =>{
 
 
     return (
-        <div className="mb-5">
+        <div className="mb-5 service-container-addservice" >
             <h2>Add a new service here</h2>
             <form onSubmit={handleSubmit(onSubmit)} className="mt-5 add-service ">
                 {/* <input {...register("email", )} defaultValue={user?.email} /> <br /> */}

@@ -34,10 +34,10 @@ const ServiceDetails = () => {
     })
   } 
     return (
-        <div className="row mb-5 container w-100 mx-auto ">
+        <div className="row mb-5 container w-100 mx-auto service-detials-container ">
             {/* <h4>service details of id: {detailsId}</h4> */}
             <h2>Book Your Order Here</h2>
-            <div className="col col-md-6">
+            <div className="col col-md-6 mt-4 service-detials-container-card">
                 <Card className="w-75">
                     <Card.Img variant="top" src={serviceDetails?.image} />
                     <Card.Body>
@@ -50,7 +50,7 @@ const ServiceDetails = () => {
                 </Card>
             </div>
 
-            <div className="col col-md-6 booking-form ms-5 ">
+            <div className="col col-md-6 booking-form ms-5  service-detials-container-form">
             <form  onSubmit={handleSubmit(onSubmit)} className="mt-5 ">
       <input {...register("email", )} defaultValue={user?.email} /> <br />
       <input {...register("name", )}  placeholder="destination name" /> <br />

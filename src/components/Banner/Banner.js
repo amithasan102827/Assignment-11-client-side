@@ -3,8 +3,8 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div>
-            <div class="hero-image">
+        <div className="">
+            <div class="hero-image ">
                 <div class="hero-text">
                       <h1>LIVE YOUR DREAM NOW</h1>
                       <h3>Enjoy your Next travel</h3>

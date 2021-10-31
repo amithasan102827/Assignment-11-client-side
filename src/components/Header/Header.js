@@ -1,13 +1,16 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../Hooks/useAuth';
 
 const Header = () => {
   const { user, logOut } = useAuth();
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-$blue-600">
+    
+    <div className="service-container ">
+      
+    <nav  className=" navbar  navbar-expand-lg navbar-light bg-light " >
         <div className="container-fluid">
           <a className="navbar-brand text-danger" href="#">travel.com</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +26,7 @@ const Header = () => {
             {
               user.email && <>
                 <li className="nav-item mx-2 ">
-                <Link className="text-decoration-none" to="/AddNewService">Add new service</Link>
+                <Link className="text-decoration-none" to="/AddNewService">AddNewService</Link>
               </li>
               <li className="nav-item mx-2 ">
                 <Link className="text-decoration-none" to="/myOrders">MyOrders</Link>
@@ -59,7 +62,9 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
     </div>
+   
   );
 };
 

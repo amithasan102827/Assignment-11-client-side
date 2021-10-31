@@ -33,3 +33,60 @@
     background-color: rgb(60, 243, 44);
     color: white;
   }
+
+  /* .service-container-3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media only screen and (max-width:600px)  {
+    .service-container-3{
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+ 
+    
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+   
+    .service-container-3{
+        grid-template-columns: repeat(2,1fr);
+    }
+} */
+
+
+
+@media only screen and (max-width:600px)  {
+  .promotion-container{
+    width: 100%;
+
+  }
+  .image-promotion{
+    width: 100vw;
+    height: 100vh;
+  }
+.text-promotion h1,p{
+  width: 100%;
+}
+  
+}
+@media only screen and (min-width:689px) and (max-width:991px)  {
+  .promotion-container,button{
+    width: 100%;
+
+  }
+  .image-promotion{
+    width: 100vw;
+    height: 100vh;
+  }
+  .text-promotion h1 ,p,button{
+    width: 100%;
+  }
+
+
+}

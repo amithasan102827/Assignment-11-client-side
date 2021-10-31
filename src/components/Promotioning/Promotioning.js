@@ -3,7 +3,7 @@ import React from 'react';
 import "./Promotioning.css";
 const Promotioning = () => {
     return (
-        <div>
+        <div className="promotion-container">
             <div className="image-promotion mt-4">
                 <div className="text-promotion">
                     
