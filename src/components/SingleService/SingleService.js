@@ -18,7 +18,7 @@ const SingleService = ({service}) => {
           <Card.Text>
             {description}
           </Card.Text>
-          <Link to={`/serviceDetails/${_id}`}> <button type="button" class="btn btn-warning">Book Now</button> </Link>
+          <Link to={`/serviceDetails/${_id}`}> <button type="button" className="btn btn-warning">Book Now</button> </Link>
          
         </Card.Body>
       </Card>

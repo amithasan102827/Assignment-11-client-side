@@ -11,10 +11,10 @@
                     <span> A travel experience easily makes you happier by getting you away from your daily grind.</span>
                 </div>
                 <div>
-                    <i class="fab fa-facebook icon"></i>
-                    <i class="fab fa-twitter icon"></i>
-                    <i class="fab fa-youtube icon"></i>
-                    <i class="fab fa-linkedin icon"></i>
+                    <i className="fab fa-facebook icon"></i>
+                    <i className="fab fa-twitter icon"></i>
+                    <i className="fab fa-youtube icon"></i>
+                    <i className="fab fa-linkedin icon"></i>
                 </div>
             </div>
             <div className="col-md-4">
@@ -31,17 +31,17 @@
                     <h4>Quick Contact</h4>
                     <div>
                       <p>
-                           <i class="fas fa-map-marked-alt contact-icon"></i>
+                           <i className="fas fa-map-marked-alt contact-icon"></i>
                          A108 Demo Street New York, NY 535022, United States
                             care@mediyot.com
                             +1 234 567 8910
                             2021 © travel.com Design by Amit Hasan.</p>
                           <p>
-                            <i class="fas fa-envelope-open-text contact-icon"></i>
+                            <i className="fas fa-envelope-open-text contact-icon"></i>
                                 travel@gmail.com
                                 </p>
                             <p>
-                            <i class="fas fa-phone contact-icon"></i>
+                            <i className="fas fa-phone contact-icon"></i>
                                 +12345678910
                                 </p>
                     </div>

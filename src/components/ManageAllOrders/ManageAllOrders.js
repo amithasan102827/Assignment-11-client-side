@@ -30,7 +30,7 @@ const ManageAllOrders = () => {
         <div>
             <h3>Manage All Orders</h3>
         {
-            manageOrders.map(mg=><Table striped bordered hover className="table-danger" >
+            manageOrders.map(mg=><Table striped bordered hover className="table-danger" key={mg._id}>
                 <thead>
                   <tr>
                     {/* <th>#</th> */}
@@ -50,7 +50,7 @@ const ManageAllOrders = () => {
                     <td>{mg.price}</td>
                     <td>{mg.phone}</td>
                     <td>{mg.address}</td>
-                    <td><button onClick={()=>handelDelete(mg._id)} type="button" class="btn btn-danger btn-sm">Delete</button></td>
+                    <td><button onClick={()=>handelDelete(mg._id)} type="button" className="btn btn-danger btn-sm">Delete</button></td>
                   </tr>
                   {/* <tr>
                     <td>2</td>
